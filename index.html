@@ -9,10 +9,11 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="main">
-    <div id="title"><h1 id="title">freeCodeCamp Survey Form</h1></div>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
       <p id="description">Thank you for taking the time to help us improve the platform</p>
     <div id="form-items">
     <form id="survey-form">
+      <div id="fill">
       <label id="name-label">Name</label>
       <br/>
       <input id="name" type="text" placeholder="enter your name" required>
@@ -27,13 +28,14 @@
       <br/>
       <label>Which option best describes your current role</label>
       <br/>
-      <select id="dropdown" aria-placeholder="Select current role" >
+      <select id="dropdown" placeholder="Select current role" >
         <option value="student">Student</option>
         <option value="full time job">Full Time Job</option>
         <option value="full time learner">Full Time Learner</option>
         <option value="Prefer Not To Say">Prefer Not To Say</option>
         <option value="other">Other</option>
       </select>
+    </div>
       <br/>
         <label>Would you recommend freeCodeCamp to a friend?</label>
         <br/>
