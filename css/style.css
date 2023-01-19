@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+  
+  body {
+    width:100vw;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    text-align: center;
+    color: white;
+}
+
+#survey-form {
+    background-color: blue;
+    margin: 0% 20%;
+    text-align: left;
+}
+
+h1 {
+    padding-top: 2rem;
+}
+
+#description {
+    padding: 1rem;
+}
