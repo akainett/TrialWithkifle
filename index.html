@@ -6,41 +6,75 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body ali>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="main">
     <div id="title"><h1 id="title">freeCodeCamp Survey Form</h1></div>
       <div id="description"><p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
     <form id="survey-form">
-      <label id="name-label">Name<input id="name" type="text" placeholder="enter your name" required></label>
-      <label id="email-label">Email<input id="email" type="email" placeholder="enter your email" required></label>
-      <label id="number-label">Age(Optional)<input id="number" type="number" placeholder="Age" min="10" max="100"></label>
-      <label>Which option best describes your current role<select id="dropdown" aria-placeholder="Select current role" >
-          <option value="student">Student</option>
-          <option value="full time job">Full Time Job</option>
-          <option value="full time learner">Full Time Learner</option>
-          <option value="Prefer Not To Say">Prefer Not To Say</option>
-          <option value="other">Other</option>
-        </select></label>
-        <label><input type="radio" value="Definitely" name="Definitely-Maybe-Notsure"></label>
-        <label><input type="radio" value="Maybe" name="Definitely-Maybe-Notsure"></label>
-        <label><input type="radio" value="Not sure" name="Definitely-Maybe-Notsure"></label>
+      <label id="name-label">Name</label>
+      <br/>
+      <input id="name" type="text" placeholder="enter your name" required>
+      <br/>
+      <label id="email-label">Email</label>
+      <br/>
+      <input id="email" type="email" placeholder="enter your email" required>
+      <br/>
+      <label id="number-label">Age(Optional)</label>
+      <br/>
+      <input id="number" type="number" placeholder="Age" min="10" max="100">
+      <br/>
+      <label>Which option best describes your current role</label>
+      <br/>
+      <select id="dropdown" aria-placeholder="Select current role" >
+        <option value="student">Student</option>
+        <option value="full time job">Full Time Job</option>
+        <option value="full time learner">Full Time Learner</option>
+        <option value="Prefer Not To Say">Prefer Not To Say</option>
+        <option value="other">Other</option>
+      </select>
+      <br/>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <br/>
+        <input type="radio" value="Definitely" name="Definitely-Maybe-Notsure">
+        <label>Definitely</label>
+        <br/>
+        <input type="radio" value="Maybe" name="Definitely-Maybe-Notsure">
+        <label>Maybe</label>
+        <br/>
+        <input type="radio" value="Not sure" name="Definitely-Maybe-Notsure">
+        <label>Not sure</label>
+        <br/>
         <label>What would you like to see improved? (Check all that apply)</label>
+        <br/>
         <input value="Front-end Projects" type="checkbox"><label>Front-end Projects</label>
+        <br/>
         <input value="Back-end Projects" type="checkbox"><label>Back-end Projects</label>
+        <br/>
         <input value="Data Visualization" type="checkbox"><label>Data Visualization</label>
+        <br/>
         <input value="Challenges" type="checkbox"><label>Challenges</label>
+        <br/>
         <input value="Open Source Community" type="checkbox"><label>Open Source Community</label>
+        <br/>
         <input value="Gitter help rooms" type="checkbox"><label>Gitter help rooms</label>
+        <br/>
         <input value="Videos" type="checkbox"><label>Videos</label>
+        <br/>
         <input value="City Meetups" type="checkbox"><label>City Meetups</label>
+        <br/>
         <input value="Wiki" type="checkbox"><label>Wiki</label>
+        <br/>
         <input value="Forum" type="checkbox"><label>Forum</label>
+        <br/>
         <input value="Additional Courses" type="checkbox"><label>Additional Courses</label>
+        <br/>
         <label>Any comments or suggestions?</label>
+        <br/>
         <textarea id="textarea"></textarea>
-        <button type="text" id="submit">Submit</button>
+        <br/>
+        <button type="button" id="submit">Submit</button>
 
     </form>
   </div>
