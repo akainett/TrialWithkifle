@@ -11,9 +11,19 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-      <label id="name-label">Name<input id="name" type="text" value="enter your name"></label>
-      <label id="email-label">Email<input id="email" type="email" value="enter your email"></label>
-      <label id="number-label">Age(Optional)<input id="number" type="number" value="Age" min="10" max="100"></label>
+      <label id="name-label">Name<input id="name" type="text" placeholder="enter your name"></label>
+      <label id="email-label">Email<input id="email" type="email" placeholder="enter your email"></label>
+      <label id="number-label">Age(Optional)<input id="number" type="number" placeholder="Age" min="10" max="100"></label>
+      <label>Which option best describes your current role<select id="dropdown" aria-placeholder="Select current role" >
+          <option value="student">Student</option>
+          <option value="full time job">Full Time Job</option>
+          <option value="full time learner">Full Time Learner</option>
+          <option value="Prefer Not To Say">Prefer Not To Say</option>
+          <option value="other">Other</option>
+        </select></label>
+        <label><input type="radio" name="Definitely-Maybe-Notsure">Definitely</label>
+        <label><input type="radio" name="Definitely-Maybe-Notsure">Maybe</label>
+        <label><input type="radio" name="Definitely-Maybe-Notsure">Not sure</label>
     </form>
     <!--
 
